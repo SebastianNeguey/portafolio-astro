@@ -1,0 +1,17 @@
+---
+import ProyectoCard from '../components/ProyectoCard.astro';
+import proyectos from '../data/proyectos.js';
+---
+<div class="proyecto-container">
+    <h2>Mis Proyectos</h2>
+    <div class="proyecto-lista">
+        {proyectos.map((proyecto) => (
+            <ProyectoCard
+            titulo={proyecto.titulo}
+            descripcion={proyecto.descripcion}
+            imagenUrl={proyecto.imagenUrl}
+            link={proyecto.link}
+            />
+        ))}
+    </div>
+</div>

@@ -1,0 +1,229 @@
+/*Inicio*/
+.inicio {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.inicio-contenido {
+  max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inicio .texto {
+  flex: 1 1 400px;
+}
+
+.inicio h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.inicio h2 {
+  font-size: 1.8rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.inicio .nombre {
+  color: #0070f3;
+}
+
+.inicio p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+
+/* Estilos para la sección Acerca de mí */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .inicio-contenido {
+    max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-photo img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .about-text {
+      padding: 20px;
+    }
+  }
+   /* Imagenes*/
+   .proyectos {
+    background-color: white;
+    padding: 50px 0;
+  }
+  .proyecto-container {
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+   .proyecto-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .proyecto-container h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .proyecto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .proyecto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .proyecto h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .proyecto p {
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .proyecto-lista {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  /* Contactame*/
+  .contactame {
+    background-color: white;
+    padding: 50px 0;
+  }
+  
+  .contact-container {
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-container h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .contact-container form {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #005bb5;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-container {
+      padding: 1rem;
+    }
+  }  
