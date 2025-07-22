@@ -3,13 +3,14 @@ import ProyectoCard from '../components/ProyectoCard.astro';
 import proyectos from '../data/proyectos.js';
 const listaProyectos = proyectos.map((proyecto) => (
   <ProyectoCard
-    titulo={proyecto.titulo}
-    descripcion={proyecto.descripcion}
-    imagenUrl={proyecto.imagenUrl}
-    link={proyecto.link}
-  />
+  titulo={proyecto.titulo}
+  descripcion={proyecto.descripcion}
+  imagenUrl={proyecto.imagenUrl}
+  link={proyecto.link}
+/>
 ));
 ---
+
 <div class="proyecto-container">
     <h2>Mis Proyectos</h2>
     <div class="proyecto-lista">
