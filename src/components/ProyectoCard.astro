@@ -1,9 +1,10 @@
 --- 
 const { titulo, descripcion, imagenUrl, link } = Astro.props;
+const imagenConBase = `${Astro.base}${imagenUrl}`;
 ---
 
 <div class="proyecto">
-  <img src={`${Astro.base}${imagenUrl}`} alt={titulo} /> 
+  <img src={imagenConBase} alt={titulo} /> 
   <h3>{titulo}</h3>
   <p>{descripcion}</p>
   <a href={link} target="_blank">Ver más</a>
