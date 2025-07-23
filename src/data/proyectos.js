@@ -3,7 +3,7 @@ export default [
     {
       titulo: "Proyecto 1",
       descripcion: "Este es el proyecto número 1.",
-      imagenUrl: "images/ejemplo.jpg",  // Asegúrate de tener las imágenes en la carpeta /public/images
+      imagenUrl: "/images/ejemplo.jpg",  // Asegúrate de tener las imágenes en la carpeta /public/images
       link: "https://github.com/SebastianNeguey"
     },
     {
