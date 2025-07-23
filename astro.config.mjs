@@ -5,5 +5,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     base: '/portafolio-astro/',
-    site: 'https://sebastianneguey.github.io/portafolio-astro',
+    site: 'https://sebastianneguey.github.io',
 });
