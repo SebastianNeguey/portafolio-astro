@@ -2,14 +2,12 @@
 const { titulo, descripcion, imagenUrl, link } = Astro.props;
 const imagenConBase = `${Astro.base}${imagenUrl}`;
 const base = Astro.base
-const base2= ${Astro.base}
 ---
 
 <div class="proyecto">
   <img src={imagenConBase} alt={titulo} /> 
   <h3>{titulo}</h3>
   <h3>{base}</h3>
-  <h3>{base2}</h3>
   <h3>{imagenUrl}</h3>
   <h3>{imagenConBase}</h3>
   <p>{descripcion}</p>
